@@ -1,29 +1,28 @@
 def prendeles():
     pizza_fajtak = {
-        "sonkás": 1000,
-        "kukoricás": 900,
-        "hagymás": 800
+        "sonkás": 2600,
+        "kukoricás": 2600,
+        "hagymás": 2600
     }
 
     extrak = {
         "extra sajt": 200,
         "gomba": 150,
-        "ananász":170,
         "olívabogyó": 100
     }
 
     innivalok = {
-        "Coca-Cola": 300,
-        "Víz": 200,
-        "Baracklé": 280,
-        "Fanta": 280
+        "Coca-Cola": 500,
+        "Víz": 400,
+        "Baracklé": 450,
+        "Fanta": 500
     }
 
     rendelesossz = []
 
     print("Üdvözöllek a pizzarendelő chatbotban! Miben segíthetek?")
     print("Elérhető pizzák: sonkás, kukoricás, hagymás")
-    print("Elérhető plusz feltétek: extra sajt, gomba, olívabogyó,ananász")
+    print("Elérhető plusz feltétek: extra sajt, gomba, olívabogyó")
     print("Elérhető italok: Coca-Cola,Fanta,Víz,Baracklé")
 
     while True:
